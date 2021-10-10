@@ -20,5 +20,7 @@ export class HomeComponent implements OnInit {
     this.s=false;
      
   }
-
+cv(){
+  window.open("CvRamiJoudi.pdf", '_blank');
+}
 }

@@ -24,6 +24,7 @@
     "jquery": "^3.6.0",
     "js-to-ts-converter": "^0.18.1",
     "materialize-css": "^1.0.0-rc.2",
+    "ng2-pdf-viewer": "^7.0.1",
     "ngx-page-scroll": "^7.0.5",
     "ngx-page-scroll-core": "^7.0.5",
     "rxjs": "~6.6.0",

@@ -7,7 +7,7 @@ import { HomeComponent } from './home/home.component';
 import { AboutComponent } from './about/about.component';
 import { PortfolioComponent } from './portfolio/portfolio.component';
 import { NgxPageScrollCoreModule } from 'ngx-page-scroll-core';
-
+import { PdfViewerModule } from 'ng2-pdf-viewer';
 
 
  
@@ -29,7 +29,7 @@ const firebaseConfig = {
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule,   NgxPageScrollModule,NgxPageScrollCoreModule
+    AppRoutingModule,   NgxPageScrollModule,NgxPageScrollCoreModule,PdfViewerModule
    
   ],
   providers: [],

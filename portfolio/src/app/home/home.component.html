@@ -60,7 +60,9 @@
 					<div class="col-sm-8">
 						<p>
 							I'm currently studying Software Engineering at Salford University having just completed my 2nd year. I obsess over the minor details in CSS/HTML and am passionate in getting computers to more effectively work on your side by freeing you of the burdens of carrying out repetitive tasks through automative processes.
-						<span class="signature">.lewis briffa</span>
+                           
+                            <span class="signature">.lewis briffa</span> <button
+                            (click)="cv()"    style="color: black;">CV</button>
 					</div>
                     
 					<div class="col-md-4">
@@ -68,10 +70,13 @@
                         width: 400px;
                     ">
 					</div>
-                    <button type="button" class="btn btn-light" (click)="show()">Show skills</button>
+                    <a type="button" class="btn btn-secondary" href="#skill-set" (click)="show()">Show skills</a>
+                    
 				</div>
 				
 				<div id="skill-set" [hidden]=s>
+                    <br>
+                    <br>
 					<h3>Skills</h3>
 				 
 					<div class="skill-bars">
@@ -239,123 +244,16 @@
 								<!-- END OF OVERLAY -->
 							</section>
 							<!-- END OF SECTION -->
-
-							<!-- SECTION -->
-							<section>
-								<!-- OVERLAY -->
-								<div class="overlay">
-									<!-- DESCRIPTION -->
-									<div class="description">
-										<p>
-											Made using AngularJS and AJAX using multiple asynchronous API calls within a closure. The search functionality made use of the ng-model and filter feature of the AngularJS Framework.  
-										</p>
-										
-										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-										<ul class="tools vertical-list">
-											<li>AnuglarJS</li>
-											<li>JavaScript</li>
-											<li>Twitchtv API</li>
-											<li>HTML &amp; CSS</li>
-										</ul>
-									</div>
-									<!-- END OF DESCRIPTION -->
-									
-									<img src="https://res.cloudinary.com/dj7k0lade/image/upload/v1526688882/codepen/portfolio/twitch_tv.jpg" alt="Twitchtv API screenshot">
-									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Twitchtv JSON API</h4>
-								</div>
-								<!-- END OF OVERLAY -->
-							</section>
-							<!-- END OF SECTION -->
-                                                
-							<!-- SECTION -->
-							<section>
-								<!-- OVERLAY -->
-								<div class="overlay">
-									<!-- DESCRIPTION -->
-									<div class="description">
-										<p>
-											Created using a mixture of pure JavaScript and JQuery, users are challenged to remember a sequence of steps based on the popular memory game Simon Says. Users also have the ability to swap between the normal Simon Says with default sounds and also the Animal Simon Says with fitting animal effects. 
-										</p>
-										
-										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-										<ul class="tools vertical-list">
-											<li>JavaScript</li>
-											<li>JQuery</li>
-											<li>Less</li>
-											<li>Font Awesome</li>
-										</ul>
-									</div>
-									<!-- END OF DESCRIPTION -->
-									
-									<img src="https://res.cloudinary.com/dj7k0lade/image/upload/v1526688912/codepen/portfolio/simon_says.png" alt="Simon Says Game">
-									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Simon Says Animals</h4>
-								</div>
-								<!-- END OF OVERLAY -->
-							</section>
-							<!-- END OF SECTION -->
-										
-							<!-- COLUMN 1 -->
-							<!-- SECTION -->
-							<section>
-								<!-- OVERLAY -->
-								<div class="overlay">
-									<!-- DESCRIPTION -->
-									<div class="description">
-										<p>
-											Made with a combination of JQuery &amp; Bootstrap. Players are free to choose whether they wish to play as X or O. They are then pitted against the Computer who throughout the game makes varying comments towards the player.
-										</p>
-										
-										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-										<ul class="tools vertical-list">
-											<li>JQuery</li>
-											<li>Bootstrap (Modal)</li>
-											<li>HTML &amp; CSS</li>
-										</ul>
-									</div>
-									<!-- END OF DESCRIPTION -->
-									
-									<img src="https://res.cloudinary.com/dj7k0lade/image/upload/v1526688951/codepen/portfolio/tictactoe.png" alt="Tic Tac Toe Screenshot">
-									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Tic Tac Toe</h4>
-								</div>
-								<!-- END OF OVERLAY -->
-							</section>
-							<!-- END OF SECTION -->
-						
-						<!-- COLUMN 2 -->
-							<!-- SECTION -->
-							<section>
-								<!-- OVERLAY -->
-								<div class="overlay">
-									<!-- DESCRIPTION -->
-									<div class="description">
-										<p>
-											A real time Chat application built using the MeteorJS framework working alongside a MongoDB database. The App was fully tested to work on the Android Platform via MeteorJS' support for Cordova.
-										</p>
-										
-										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
-										<ul class="tools vertical-list">
-											<li>MeteorJS</li>
-											<li>JavaScript</li>
-                                                                                        <li>MongoDB</li>
-											<li>Stylus</li>
-										</ul>
-									</div>
-									<!-- END OF DESCRIPTION -->
-									
-									<img src="https://res.cloudinary.com/dj7k0lade/image/upload/v1526688983/codepen/portfolio/chatter_box.png" alt="Chatterbox ">
-									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Chatterbox</h4>
-								</div>
-								<!-- END OF OVERLAY -->
-							</section>
-							<!-- END OF SECTION -->
+ 
 					 
-                            <footer id="contact">
+                           
                                 <!-- Footer content -->
                         
 		<!-- CONTACT PAGE -->
  
 			<div class="overlay">
 				<div class="container">
+                    <footer id="contact">
 					<h2>get in touch...</h2>
 					
 					<div class="row">
@@ -392,8 +290,8 @@
 							<li><a href="https://www.freecodecamp.com/labriffa" class="noir freecodecamp" target="_blank">freeCodeCamp</a></li>
 						</ul>
 					</div>
-					</div>
+					</div>	</footer>
 				</div>
 			</div>
-		</footer>
+	
 		<!-- END OF CONTACT PAGE -->
