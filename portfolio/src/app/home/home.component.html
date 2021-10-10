@@ -20,6 +20,7 @@
 						<li><a href="#about" >About me</a></li>
 						<li><a href="#portfolio">Portfolio</a></li>
 						<li><a href="#contact" >Contact Me</a></li>
+                        
 					</ul>
 				</nav>
 				<!-- END OF PRIMARY NAVIGATION -->
@@ -36,11 +37,11 @@
                       </div>
 					<!-- <h1 ><span ><div id="h1">Rami Joudi</div></span><small>web / automation development</small></h1> -->
 						<ul class="social-links vertical-list">
-						<li><a href="https://twitter.com/labDevelopments" class="noir twitter" target="_blank">
+						<li><a href="https://github.com/ramiJoudi" class="noir twitter" target="_blank">
                             <img src="../assets/GitHub.png" style=" width: 30px;"> GitHub</a></li>
-						<li><a href="https://www.planecode.co.uk" class="noir linkedin" target="_blank">
+						<li><a href="https://www.linkedin.com/in/rami-joudi-b3862b1b8/" class="noir linkedin" target="_blank">
                             <img src="../assets/l.png" style=" width: 120px;"></a></li>
-						<li><a href="https://www.freecodecamp.com/labriffa" class="noir freecodecamp" target="_blank">freeCodeCamp</a></li>
+						<!-- <li><a href="https://www.freecodecamp.com/labriffa" class="noir freecodecamp" target="_blank">freeCodeCamp</a></li> -->
 					</ul>
 				</div>
 				<!-- END OF CONTAINER -->
@@ -61,36 +62,60 @@
 							I'm currently studying Software Engineering at Salford University having just completed my 2nd year. I obsess over the minor details in CSS/HTML and am passionate in getting computers to more effectively work on your side by freeing you of the burdens of carrying out repetitive tasks through automative processes.
 						<span class="signature">.lewis briffa</span>
 					</div>
-
+                    
 					<div class="col-md-4">
 						<img src="../assets/r.png" alt="Lewis Alberto Briffa"style="
                         width: 400px;
                     ">
 					</div>
+                    <button type="button" class="btn btn-light" (click)="show()">Show skills</button>
 				</div>
 				
-				<div id="skill-set">
+				<div id="skill-set" [hidden]=s>
 					<h3>Skills</h3>
-					<ul class="vertical-list">
-						<li>
-							<ul class="vertical-list skills" id="web-development-skills">
-								<li>HTML</li>
-								<li>CSS</li>
-								<li>JavaScript</li>
-							</ul>
-						</li>
-						<li>
-							<ul class="vertical-list skills" id="automation-skills">
-								<li>AutoHotKey</li>
-							</ul>
-						</li>
-
-						<li>
-							<ul class="vertical-list skills" id="misc-skills">
-								<li>Regular Expressions</li>
-							</ul>
-						</li>
-					</ul>
+				 
+					<div class="skill-bars">
+                        <div class="bar">
+                          <div class="info">
+                            <span>Angular</span>
+                          </div>
+                          <div class="progress-line html">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>Spring Boot</span>
+                          </div>
+                          <div class="progress-line css">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>Testing (Junit5,Mockito)</span>
+                          </div>
+                          <div class="progress-line jquery">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>Docker</span>
+                          </div>
+                          <div class="progress-line python">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>ExpressJs ,nodeJs</span>
+                          </div>
+                          <div class="progress-line mysql">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
 				</div>
 			</div>
 			<!-- END OF CONTAINER -->
@@ -128,7 +153,7 @@
 									</div>
 									<!-- END OF DESCRIPTION -->
 									
-									<img src="https://res.cloudinary.com/dj7k0lade/image/upload/v1526688745/codepen/portfolio/venditore.png" alt="Editorial Monitoring Automated Excel Screenshot">
+									<img src="../assets/dari.png" alt="Editorial Monitoring Automated Excel Screenshot">
 									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>WordPress (WooCommerce) Theme: Venditore</h4>
 								</div>
 								<!-- END OF OVERLAY -->
@@ -153,7 +178,7 @@
 									</div>
 									<!-- END OF DESCRIPTION -->
 									
-									<img src="https://res.cloudinary.com/dj7k0lade/image/upload/v1526688773/codepen/portfolio/editorial_excel.jpg" alt="Editorial Monitoring Automated Excel Screenshot">
+									<img src="../assets/pl.png" alt="Editorial Monitoring Automated Excel Screenshot">
 									<h4 class="heading"><span class="glyphicon glyphicon-hand-up"></span>Editorial Monitoring Job - Automated</h4>
 								</div>
 								<!-- END OF OVERLAY -->
