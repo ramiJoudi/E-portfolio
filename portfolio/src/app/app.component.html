@@ -1,2 +1,324 @@
-<!-- <app-home></app-home> -->
- <app-portfolio></app-portfolio>
+
+<head>
+	<meta charset="UTF-8">
+	<title>Lewis Alberto Briffa</title>
+	<link href='https://fonts.googleapis.com/css?family=Fauna+One' rel='stylesheet' type='text/css'>
+	<!-- <link rel="stylesheet" href="styles/main.css"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<!--[if IE]><script src="https://html5shiv.googlecode.com/svn/trunk/html5.js"></script><![endif]-->
+	<link
+	rel="stylesheet"
+	href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+	integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay"
+	crossorigin="anonymous"
+  />
+</head>
+<body  >
+	
+		<!-- LANDING PAGE -->
+		<section id="home"  style="  
+	
+">
+			<!-- OVERLAY -->
+			<div class="overlay" style="
+			padding-bottom: 180px;
+			top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  overflow: auto
+		">
+				<!-- PRIMARY NAVIGATION -->
+				<nav role="navigation">
+					<ul class="vertical-list">
+						<li><a href="#home" >Home</a></li>
+						<li><a href="#about" >About me</a></li>
+						<li><a href="#portfolio">Portfolio</a></li>
+						<li><a href="#contact" >Contact Me</a></li>
+                        
+					</ul>
+				</nav>
+				<!-- END OF PRIMARY NAVIGATION -->
+
+				<!-- CONTAINER -->
+				<div class="container">
+                    <div class="container">
+<h1>
+                        <h1 id="h1" style="flex-wrap: wrap;">
+                          <span style="color: #97C774">H</span><span style="color: #B63E98">e</span><span style="color: #D18E62">l</span>
+						  <span style="color: #DB3E41">l</span><span style="color: #1BABA5">o</span>, I'm Rami Joudi.
+                        </h1>
+                      
+                        <small >Full-Stack developer</small></h1>
+                      </div>
+					<!-- <h1 ><span ><div id="h1">Rami Joudi</div></span><small>web / automation development</small></h1> -->
+						<ul class="social-links vertical-list">
+						<li><a href="https://github.com/ramiJoudi" class="noir twitter" target="_blank">
+                            <img src="../assets/GitHub.png" style=" width: 30px;"> GitHub</a></li>
+						<li><a href="https://www.linkedin.com/in/rami-joudi-b3862b1b8/" class="noir linkedin" target="_blank">
+                            <img src="../assets/l.png" style=" width: 120px;"></a></li>
+						<!-- <li><a href="https://www.freecodecamp.com/labriffa" class="noir freecodecamp" target="_blank">freeCodeCamp</a></li> -->
+					</ul>
+				</div>
+				<!-- END OF CONTAINER -->
+			</div>
+			<!-- END OF OVERLAY -->
+		</section>
+		<!-- END OF LANDING PAGE -->
+
+
+		<!-- ABOUT -->
+		<section id="about" style="margin-bottom: 80px;">
+			<!-- CONTAINER -->
+			<div class="container" >
+				<h2>a little about me...</h2>
+				<div class="row info">
+					<div class="col-sm-8">
+						<p>
+							I'm a Full-Stack Developer and Software Engineering student in ESPRIT at Ariana, Tunisa.
+							looking for a full-stack developer pfe internship in tunsia or abroad, my academic and professional training allowed me to acquire a lot of skills like developing the backend of a website
+							with Spring boot and secure user accounts with Spring security,test the backend with JUNIT5 and Mockito, develop the frontend with angular or reactJs and deploy the backend, database and frontend with docker.
+							
+                           
+                            <span class="signature">.Rami Joudi</span> 
+                          <div class="cv" style="margin-top: 80px;">  <button class="btn btn-link"(click)="cv()">See resume</button >
+								<a type="button" class="btn btn-secondary" href="#skill-set"  style="width: 126px;" (click)="show()">Show skills</a></div>
+					</div>
+                    
+					<div class="col-md-4">
+						<img src="../assets/r.png" alt="Lewis Alberto Briffa"style="
+                        width: 400px;
+                    ">
+					</div> 
+                    
+				</div>
+				
+				<div id="skill-set" [hidden]=s>
+                    <br>
+                    <br>
+					<h3>Skills</h3>
+				 
+					<div class="skill-bars">
+                        <div class="bar">
+                          <div class="info">
+                            <span>Angular</span>
+                          </div>
+                          <div class="progress-line html">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>Spring Boot</span>
+                          </div>
+                          <div class="progress-line css">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>Testing (Junit5,Mockito)</span>
+                          </div>
+                          <div class="progress-line jquery">
+                            <span></span>
+                          </div>
+                        </div>
+                        <div class="bar">
+                          <div class="info">
+							<span>Docker</span>
+                          </div>
+                          <div class="progress-line python">
+                            <span></span>
+                          </div>
+                        </div>
+						<div class="bar">
+							<div class="info">
+							 <span>Selenium</span>
+							</div>
+							<div class="progress-line python1">
+							  <span></span>
+							</div>
+						  </div>
+                        <div class="bar">
+                          <div class="info">
+                            <span>ExpressJs ,nodeJs</span>
+                          </div>
+                          <div class="progress-line mysql">
+                            <span></span>
+                          </div>
+                        </div>
+                      </div>
+				</div>
+			</div>
+			<!-- END OF CONTAINER -->
+		</section>
+		<!-- END OF ABOUT -->
+
+		<!-- PORTFOLIO -->
+		<section id="portfolio">
+			
+					<!-- CONTAINER -->
+					<div class="container">
+						<h2>some of my work...</h2>
+					</div>
+					<!-- END OF CONTAINER -->
+					
+					<div class="container">
+						<section>
+								<!-- OVERLAY -->
+								<div class="overlay" >
+									<!-- DESCRIPTION -->
+									<div class="description">
+										<p>
+											Development of a real estate website that allows the sale and the purchase of real estate, with a chatbot and a virtual visit for customers.
+										</p>
+										
+										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+										<ul class="tools vertical-list">
+											<li>Spring boot</li>
+											<li>Spring Security</li>
+											<li>JPA Hibernate</li>
+											<li>JWT</li>
+											<li>Mysql</li>
+											<li>Angular 9</li>
+											<li>Docker</li>
+										</ul> 
+									</div>
+									<!-- END OF DESCRIPTION -->
+									
+									<img src="../assets/dari.png" alt="Editorial Monitoring Automated Excel Screenshot">
+									<h4 class="heading" style="top: 20px;"><span class="glyphicon glyphicon-hand-up"></span>Dari.tn</h4>
+								</div>
+								<!-- END OF OVERLAY -->
+							</section>
+							<!-- END OF SECTION -->
+
+							<section>
+								<!-- OVERLAY -->
+								<div class="overlay">
+									<!-- DESCRIPTION -->
+									<div class="description">
+										<p>
+											Designing and development of a mobile application for assessing children's IQ in the form of a quiz and games with parental supervision.
+										</p>
+										
+										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+										<ul class="tools vertical-list">
+											<li>Flutter</li>
+											<li>FireStore (FireBase)</li>
+											<li>Authentification Firebase (FireBase)</li>
+											<li>Realtime Database (FireBase)</li>
+											<li>Realtime Database (FireBase)</li>
+											<li>Cloud Storage (FireBase)</li>
+										</ul>
+									</div>  
+									<!-- END OF DESCRIPTION -->
+									
+									<img src="../assets/pl.png" alt="Editorial Monitoring Automated Excel Screenshot">
+									<h4 class="heading" style="top: 20px;"><span class="glyphicon glyphicon-hand-up"></span>PiLand App</h4>
+								</div>
+								<!-- END OF OVERLAY -->
+							</section>
+							<!-- END OF SECTION -->
+						
+							<!-- SECTION -->
+							<section>
+								<!-- OVERLAY -->
+								<div class="overlay">
+									<!-- DESCRIPTION -->
+									<div class="description">
+										<p>
+											Designing and development of a personal blog inspired by a medium that allows the user to write posts and share them with friends.
+										</p>
+										
+										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+										<ul class="tools vertical-list">
+											<li>MangoDB</li>
+											<li>ExpressJs</li>
+											<li>NodeJs</li>
+											<li>Angular 8</li>
+										</ul>
+									</div>
+									<!-- END OF DESCRIPTION -->
+									
+									<img src="../assets/rblog.png" alt="Quote Machine in Action">
+									<h4 class="heading" style="top: 20px;" ><span class="glyphicon glyphicon-hand-up"></span>E-Blog</h4>
+								</div>
+								<!-- END OF OVERLAY -->
+							</section>
+							<!-- END OF SECTION -->
+
+						<!-- COLUMN 3 -->
+							<!-- SECTION -->
+							<section>
+								<!-- OVERLAY -->
+								<div class="overlay">
+									<!-- DESCRIPTION -->
+									<div class="description">
+										<p>
+											Designing and development of an application desktop on Ubuntu, which allows you to reserve a flight, accommodation and estimate the budget of residence.
+										</p>
+										
+										<h6>Tools<span class="glyphicon glyphicon-cog"></span></h6>
+										<ul class="tools vertical-list">
+											<li>C</li>
+											<li>GTK+</li>
+											<li>Glade</li>
+										</ul>
+									</div>
+									<!-- END OF DESCRIPTION -->
+									
+									<img src="../assets/ubuntu.png" alt="Weather Web Application Displaying the Weather for London" style="
+									height: 322px;
+								">
+									<h4 class="heading" style="top: 20px;"><span class="glyphicon glyphicon-hand-up"></span>Sky Travel</h4>
+								</div>
+								<!-- END OF OVERLAY -->
+							</section>
+							<!-- END OF SECTION -->
+ 
+					 
+                           
+                                <!-- Footer content -->
+                        
+		<!-- CONTACT PAGE -->
+ 
+			<div class="overlay">
+				<div class="container">
+                    <footer id="contact">
+					<h2>get in touch...</h2>
+					
+					<div class="contact-links" style="text-align: center">
+						 
+						<a
+						  id="profile-link"
+						  href="https://www.linkedin.com/in/rami-joudi-b3862b1b8/"
+						  target="_blank"
+						  class="btn contact-details"
+						  ><i class="fab fa-linkedin-in"></i> Rami Joudi</a
+						>
+	 
+						<a href="mailto:rami.joudi1@esprit.tn" class="btn contact-details"
+						  ><i class="fas fa-at"></i> rami.joudi1@esprit.tn</a
+						>
+						<a href="tel:+216-22-875-134" class="btn contact-details"
+						  >
+					  <i class="fas fa-mobile-alt"></i> +216 22 875 134</a
+						>
+					  </div>
+					 
+				 
+					<!-- <i class="fas fa-mobile-alt"></i>
+					<i class="fab fa-linkedin-in"></i> -->
+					 	</footer>
+				</div>
+			</div>
+			</div>
+		
+			</section>
+			<div style="background-color: rgba(4, 14, 22, 0.83);">
+			<div style="	background-color:#423a3a; text-align: center">Written & Coded with <i class="fas fa-coffee"></i> and <i class="far fa-heart"></i> by Rami Joudi © 2021.</div>
+		</div>	
+		</body>
+            

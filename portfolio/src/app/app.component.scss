@@ -141,7 +141,7 @@ h1 > small {
 
 h2 {
 	font-size: 245%;
-	margin-top: 140px;
+ 
 }
 
 h2:after {
@@ -213,7 +213,12 @@ h1 .logo {
 
 #home {
 	background: url("i.jpg") no-repeat;
-  
+    top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  margin: 0;
+  overflow: auto;
 	width: 100%;
 	background-size: cover;
 }
@@ -247,7 +252,11 @@ h1 .logo {
 	z-index: 999;
 	padding: 0;
 	transition: background-color .8s;
-	
+
+	bottom: 0;
+	right: 0;
+	margin: 0;
+	overflow: auto;
 }
 
 #home nav.fixed ul {
@@ -361,16 +370,19 @@ h1 .logo {
 	animation: animate 1s 1s cubic-bezier(1,0,0.5,1) forwards;
   }
   .bar .progress-line.html span{
-	width: 90%;
+	width: 80%;
   }
   .bar .progress-line.css span{
-	width: 60%;
+	width: 87%;
   }
   .bar .progress-line.jquery span{
-	width: 85%;
+	width: 80%;
   }
   .bar .progress-line.python span{
-	width: 50%;
+	width: 65%;
+  }
+  .bar .progress-line.python1 span{
+	width: 57%;
   }
   .bar .progress-line.mysql span{
 	width: 75%;
@@ -408,16 +420,19 @@ h1 .logo {
 	}
   }
   .progress-line.html span::after{
-	content: "90%";
+	content: "80%";
   }
   .progress-line.css span::after{
-	content: "60%";
+	content: "87%";
   }
   .progress-line.jquery span::after{
-	content: "85%";
+	content: "80%";
   }
   .progress-line.python span::after{
-	content: "50%";
+	content: "65%";
+  }
+  .progress-line.python1 span::after{
+	content: "57%";
   }
   .progress-line.mysql span::after{
 	content: "75%";
@@ -451,14 +466,17 @@ h1 .logo {
 #skill-set {
 	margin-top: 80px;
 	padding-bottom: 80px;
+	flex-wrap: wrap;
 }
 
 #skill-set ul {
 	overflow: hidden;
+	 
 }
 
 #web-development-skills {
 	background-color: #114190;
+	
 }
 
 
@@ -570,7 +588,16 @@ h1 .logo {
 	padding: 10px;
 	border: 3px solid #393333;
 }
-
+contact-links{
+	font-size: 40px;
+}
+section
+{
+	top:0px;
+            left:0px;
+            width:100%;
+            height:100%;
+}
 #portfolio img {
 	width: 100%;
 }
